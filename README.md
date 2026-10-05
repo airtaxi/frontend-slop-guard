@@ -1,10 +1,19 @@
-# Frontend Slop Guard
+# Keep AI slop out of your UI.
 
-An agent skill that keeps AI-built interfaces from turning into slop UI. It turns the ten most common AI
-design tells into concrete rules you can apply while writing and reviewing a frontend.
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-The runtime artifact is plain Markdown (`SKILL.md`), so any harness that reads skill-style instructions
-can use it.
+🌐 English | [한국어](README.ko.md)
+
+Frontend Slop Guard is an agent skill that keeps AI-built interfaces from turning into slop UI. It turns the ten most common AI design tells into concrete rules you can apply while writing and reviewing a frontend.
+
+The runtime artifact is plain Markdown (`SKILL.md`), so any harness that reads skill-style instructions can use it.
+
+## Highlights
+
+- Catch the ten slop tells before a UI ships, from gradient abuse to hype taglines.
+- Each tell comes with a self-check, and the skill adds a pre-ship checklist and a review mode.
+- Ships as one Markdown file that any harness can read.
+- Includes 16 reference images and a summary table for every tell.
 
 ## What it catches
 
@@ -21,15 +30,11 @@ can use it.
 | 9 | Glassmorphism and cookie-cutter brutalism | Pick one design language; use glass only where layers overlap. |
 | 10 | Generic taglines and hype | Drop the banned taglines and the habit subtitle. |
 
-Every tell has a self-check, and the skill closes with a pre-ship checklist and a review mode.
-
 ## When it loads
 
-Load it for any visual interface work: HTML, CSS, SCSS, JS, TS, JSX, TSX, Vue, Svelte, Astro, and Tailwind,
-plus the visual styling of desktop and mobile screens (WinUI XAML, WPF, MAUI, React Native, Flutter). It
-also applies when reviewing or refactoring an existing UI.
+Load it for any visual interface work: HTML, CSS, SCSS, JS, TS, JSX, TSX, Vue, Svelte, Astro, and Tailwind, plus the visual styling of desktop and mobile screens (WinUI XAML, WPF, MAUI, React Native, Flutter). It also applies when reviewing or refactoring an existing UI.
 
-## Installation
+## Install
 
 ### Manual
 
@@ -62,10 +67,12 @@ references/source-*.md   the original source article, kept for attribution
 
 ## Attribution
 
-The ten tells come from "10 tells of a slop ui" by hereticpleb (Pranav Desai), published on September 27,
-2026, at https://hereticpleb.vercel.app/blog/10-tells-of-slop. The original text and images are kept under
-`references/` with attribution.
+The ten tells come from "10 tells of a slop ui" by hereticpleb (Pranav Desai), published on September 27, 2026, at https://hereticpleb.vercel.app/blog/10-tells-of-slop. The original text and images are kept under `references/` with attribution.
 
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Author
+
+Created by [Howon Lee (airtaxi)](https://github.com/airtaxi).

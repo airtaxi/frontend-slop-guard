@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Slop Guard"
+  short_description: "Stop AI slop UI before it ships"
+  default_prompt: "Use $frontend-slop-guard before writing or reviewing any UI."

@@ -8,14 +8,15 @@ description: >-
   tells: gradient abuse, rainbow color vomit, pulsing and redundant status badges, fingernail
   card accent bars, emoji slop, misaligned elements, lazy default fonts (Inter, JetBrains Mono)
   with `//` gimmicks, chat-context redundant copy, overused glassmorphism and identical brutalism,
-  and generic hype taglines. Load this for every frontend, UI, CSS, HTML, Tailwind, React, Vue,
+  and generic hype taglines, plus middle dot (·) separator abuse in UI copy. Load this for every
+  frontend, UI, CSS, HTML, Tailwind, React, Vue,
   Svelte, dashboard, landing page, design, styling, component, theme, slop, or anti-slop task
   without exception.
 ---
 
 # Frontend Slop Guard
 
-This skill turns the ten AI "slop UI" tells from the source article "10 tells of a slop ui" (hereticpleb, September 27, 2026) into rules you can apply while writing and reviewing frontends.
+This skill turns the ten AI "slop UI" tells from the source article "10 tells of a slop ui" (hereticpleb, September 27, 2026) into rules you can apply while writing and reviewing frontends. It also adds one tell that is not in the source article: middle dot separator abuse.
 
 ## When to Read
 
@@ -105,6 +106,17 @@ Each section lists the tell, why it is slop, and the rule.
 - Rule: Do not use the banned words above or their variants. Add a subtitle under an H1 only when it supplies missing information. On tool screens, keep working labels and states, and drop welcome copy and marketing lines.
 - Self-check: Check whether removing the subtitle or copy loses information. If it does not, remove it.
 
+## Additional Tells
+
+These tells are not in the source article. They follow the same format and carry the same weight as the ten above.
+
+### 11. Middle Dot Separators
+
+- Tell: The middle dot `·` (U+00B7, `&middot;`) and its look-alikes (`•`, `∙`, `⋅`) used as an all-purpose separator. Metadata rows such as "5 min read · Design · Oct 2026", footers such as "Privacy · Terms · Contact", titles such as "Settings · Account", and Korean copy that lists items as "디자인·개발·운영".
+- Why it is slop: LLMs reach for the middle dot whenever two pieces of text sit next to each other, so it now marks generated copy the same way the `//` gimmick does. It hides the relationship between the items (a list, a hierarchy, or a date and a category all look the same), it is hard to hit on small touch targets when it separates links, and screen readers either skip it or read it as "dot".
+- Rule: Separate items with layout, not glyphs. Render each item as its own element and space them with `gap`, margins, or a thin divider drawn in CSS or XAML. Show hierarchy with breadcrumb chevrons or headings, and write lists in prose with commas or conjunctions (in Korean, use commas or "와/과", "및"). Use `·` only when the language's orthography requires it (for example Catalan "l·l") or when it appears in user-entered or brand content.
+- Self-check: Search the changed files for `·`, `&middot;`, `&#183;`, `·`, and `•`. Replace every one that is not required by orthography or by content you were given.
+
 ## Slop-Safe Defaults
 
 - Start with flat backgrounds, and create depth with a subtle tone shift if needed.
@@ -126,10 +138,11 @@ Each section lists the tell, why it is slop, and the rule.
 - [ ] No redundant copy or internal-detail copy remains.
 - [ ] The design holds up without the glass effect and brutalism.
 - [ ] No banned tagline words remain, and no grey subtitle is added by habit.
+- [ ] No middle dot (`·`) or bullet glyph is used as a decorative separator.
 
 ## Review Mode
 
-When reviewing an existing UI, list the problems against the ten tells, and for each problem give the file, the location, and a concrete fix. Classify severity as "breaks function", "hurts trust", or "a matter of taste". Do not force taste issues; leave them as suggestions.
+When reviewing an existing UI, list the problems against the eleven tells, and for each problem give the file, the location, and a concrete fix. Classify severity as "breaks function", "hurts trust", or "a matter of taste". Do not force taste issues; leave them as suggestions.
 
 ## References
 

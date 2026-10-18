@@ -10,7 +10,7 @@ The runtime artifact is plain Markdown (`SKILL.md`), so any harness that reads s
 
 ## Highlights
 
-- Catch the ten slop tells before a UI ships, from gradient abuse to hype taglines.
+- Catch eleven slop tells before a UI ships, from gradient abuse to hype taglines and middle dot separators.
 - Each tell comes with a self-check, and the skill adds a pre-ship checklist and a review mode.
 - Ships as one Markdown file that any harness can read.
 - Includes 16 reference images and a summary table for every tell.
@@ -29,6 +29,7 @@ The runtime artifact is plain Markdown (`SKILL.md`), so any harness that reads s
 | 8 | Redundant copy from chat context | Write only what helps the user decide. |
 | 9 | Glassmorphism and cookie-cutter brutalism | Pick one design language; use glass only where layers overlap. |
 | 10 | Generic taglines and hype | Drop the banned taglines and the habit subtitle. |
+| 11 | Middle dot separators | Separate items with layout, not `·` glyphs. |
 
 ## When it loads
 
@@ -67,7 +68,7 @@ references/source-*.md   the original source article, kept for attribution
 
 ## Attribution
 
-The ten tells come from "10 tells of a slop ui" by hereticpleb (Pranav Desai), published on September 27, 2026, at https://hereticpleb.vercel.app/blog/10-tells-of-slop. The original text and images are kept under `references/` with attribution.
+The ten tells come from "10 tells of a slop ui" by hereticpleb (Pranav Desai), published on September 27, 2026, at https://hereticpleb.vercel.app/blog/10-tells-of-slop. The original text and images are kept under `references/` with attribution. Tell 11 (middle dot separators) is an addition and does not appear in the source article.
 
 ## License
 

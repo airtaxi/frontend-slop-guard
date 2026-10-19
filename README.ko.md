@@ -57,6 +57,8 @@ git clone https://github.com/airtaxi/frontend-slop-guard.git <skills-dir>/fronte
 
 - OpenCode, Claude Code(맥과 리눅스): `~/.config/opencode/skills/`, `~/.claude/skills/`
 - OpenCode(윈도): `C:/Users/<you>/.config/opencode/skills/`
+- Codex: `~/.agents/skills/`
+- Antigravity: `~/.gemini/config/skills/` (Antigravity CLI는 `~/.gemini/antigravity-cli/skills/`)
 
 ### Skills CLI
 

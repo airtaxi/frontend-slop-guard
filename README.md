@@ -57,6 +57,8 @@ Common locations:
 
 - OpenCode and Claude Code (macOS/Linux): `~/.config/opencode/skills/`, `~/.claude/skills/`
 - OpenCode (Windows): `C:/Users/<you>/.config/opencode/skills/`
+- Codex: `~/.agents/skills/`
+- Antigravity: `~/.gemini/config/skills/` (Antigravity CLI: `~/.gemini/antigravity-cli/skills/`)
 
 ### Skills CLI
 

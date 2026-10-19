@@ -6,7 +6,7 @@
 - License: Apache License 2.0
 - Files referenced: `crates/live/assets/antipatterns.json` (detector rule descriptions) and `skill/reference/craft-floor.md` (craft floor and refusals)
 
-The rules below were rewritten for this skill rather than copied. This table maps each Impeccable rule to the tell that covers it.
+This table maps each Impeccable rule to the tell that covers it.
 
 | Impeccable rule | Covered by |
 | --- | --- |

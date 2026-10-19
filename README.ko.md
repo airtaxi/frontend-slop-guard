@@ -78,7 +78,7 @@ references/source-*.md   출처 표기를 위해 보존한 원본 자료
 
 열 가지 신호는 hereticpleb(Pranav Desai)가 2026년 9월 27일에 발행한 "10 tells of a slop ui"에서 가져왔습니다. 원문은 https://hereticpleb.vercel.app/blog/10-tells-of-slop 에 있습니다. 원문 텍스트와 이미지는 출처를 밝혀 `references/` 아래에 보존했습니다. 11번 신호(가운데점 구분자)는 원문에 없는 내용을 별도로 추가한 것입니다.
 
-12번부터 19번까지의 신호와 1번부터 10번까지 신호에 보강한 내용 일부는 Paul Bakaus가 Apache 2.0 라이선스로 공개한 [Impeccable](https://github.com/pbakaus/impeccable)의 안티 패턴 규칙을 바탕으로 작성했습니다. 규칙은 그대로 옮기지 않고 새로 썼으며, Impeccable의 각 규칙이 어느 신호에 대응하는지는 `references/source-impeccable.md`에 정리했습니다.
+12번부터 19번까지의 신호와 1번부터 10번까지 신호에 보강한 내용 일부는 Paul Bakaus가 Apache 2.0 라이선스로 공개한 [Impeccable](https://github.com/pbakaus/impeccable)의 안티 패턴 규칙을 바탕으로 작성했습니다. Impeccable의 각 규칙이 어느 신호에 대응하는지는 `references/source-impeccable.md`에 정리했습니다.
 
 ## 라이선스
 

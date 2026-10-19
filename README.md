@@ -78,7 +78,7 @@ references/source-*.md   the original sources, kept for attribution
 
 The ten tells come from "10 tells of a slop ui" by hereticpleb (Pranav Desai), published on September 27, 2026, at https://hereticpleb.vercel.app/blog/10-tells-of-slop. The original text and images are kept under `references/` with attribution. Tell 11 (middle dot separators) is an addition and does not appear in the source article.
 
-Tells 12 to 19, and several additions to tells 1 to 10, are adapted from the anti-pattern rules of [Impeccable](https://github.com/pbakaus/impeccable) by Paul Bakaus, licensed under Apache 2.0. The rules were rewritten rather than copied, and `references/source-impeccable.md` maps each Impeccable rule to the tell that covers it.
+Tells 12 to 19, and several additions to tells 1 to 10, are adapted from the anti-pattern rules of [Impeccable](https://github.com/pbakaus/impeccable) by Paul Bakaus, licensed under Apache 2.0. `references/source-impeccable.md` maps each Impeccable rule to the tell that covers it.
 
 ## License
 
